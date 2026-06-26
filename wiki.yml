@@ -22,3 +22,11 @@ site:
   layout: layouts/default.html.j2
   base_url: /
   url_style: dir
+lint:
+  broken_links: warning
+  filename_pattern: warning
+  headings: off
+  heading_levels: off
+  duplicate_headings: off
+  thematic_breaks: off
+  link_style: warning
