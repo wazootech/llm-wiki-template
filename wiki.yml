@@ -22,25 +22,3 @@ site:
   layout: layouts/default.html.j2
   base_url: /
   url_style: dir
-
-link:
-  style: markdown
-
-check:
-  missing_layout_file: error
-  frontmatter_schema: error
-  missing_schema_ref: error
-
-lint:
-  broken_links: warning
-  filename_pattern: warning
-  headings: off
-  heading_levels: off
-  duplicate_headings: off
-  thematic_breaks: off
-  link_style: warning
-
-fmt:
-  wrap: "no"
-  end_of_line: lf
-  extensions: [gfm, frontmatter, wikilink]
